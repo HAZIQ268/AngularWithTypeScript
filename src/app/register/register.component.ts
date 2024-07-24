@@ -19,7 +19,7 @@ myfunc() :void {
 
   }
   else{
-    alert("Your Form Has Been Submited");
+    alert("Your Form Has Been Submited 😎");
     
   }
 }
