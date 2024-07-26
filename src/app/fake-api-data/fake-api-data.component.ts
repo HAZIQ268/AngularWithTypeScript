@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { UserdataService, users } from '../userdata.service';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+
 @Component({
   selector: 'app-fake-api-data',
   standalone: true,
