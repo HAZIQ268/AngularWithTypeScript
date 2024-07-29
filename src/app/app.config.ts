@@ -4,12 +4,13 @@ import { RegisterComponent } from './register/register.component';
 import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
 import { FakeApiDataComponent } from './fake-api-data/fake-api-data.component';
+import { FakeapiimagesComponent } from './fakeapiimages/fakeapiimages.component';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter([
     { path : '',redirectTo :'register',pathMatch:'full'},
     { path : 'register',component:RegisterComponent},
     { path : 'fakeApiData',component:FakeApiDataComponent},
-    { path : 'fakeApiImage',component:FakeApiDataComponent},
+    { path : 'fakeApiImage',component:FakeapiimagesComponent},
   ]), provideClientHydration()]
 };
