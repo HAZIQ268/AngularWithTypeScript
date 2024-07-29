@@ -10,5 +10,6 @@ export const appConfig: ApplicationConfig = {
     { path : '',redirectTo :'register',pathMatch:'full'},
     { path : 'register',component:RegisterComponent},
     { path : 'fakeApiData',component:FakeApiDataComponent},
+    { path : 'fakeApiImage',component:FakeApiDataComponent},
   ]), provideClientHydration()]
 };
